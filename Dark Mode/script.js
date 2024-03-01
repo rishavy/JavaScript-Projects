@@ -1,4 +1,5 @@
 const body = document.querySelector('body');
+const h1 = document.querySelector("h1");
 const btn = document.querySelector('.btn');
 const icon = document.querySelector('.btn_icon');
 
@@ -12,10 +13,11 @@ function load(){
   if(!darkmode){
     store(false);
     icon.classList.add('fa-sun');
-  } else if( darkmode == 'true'){ 
+  } else if( darkmode === 'true'){ 
     body.classList.add('darkmode');
     icon.classList.add('fa-moon');
-  } else if(darkmode == 'false'){ 
+    h1.style.color = '#eee';
+  } else if(darkmode === 'false'){ 
     icon.classList.add('fa-sun');
   }
 }
@@ -23,19 +25,19 @@ function load(){
 load();
 
 btn.addEventListener('click', () => {
-
-  body.classList.toggle('darkmode');
-  icon.classList.add('animated');
-
-  store(body.classList.contains('darkmode'));
-
-  if(body.classList.contains('darkmode')){
-    icon.classList.remove('fa-sun');
-    icon.classList.add('fa-moon');
-  }else{
-    icon.classList.remove('fa-moon');
-    icon.classList.add('fa-sun');
-  }
+    body.classList.toggle('darkmode');
+    icon.classList.toggle('fa-moon'); 
+    icon.classList.add('animated');
+    store(body.classList.contains('darkmode'));
+  
+    if (body.classList.contains('darkmode')){
+        icon.classList.remove('fa-sun');
+        h1.style.color = 'white';
+    } else {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+        h1.style.color = 'black';
+    }
 
   setTimeout( () => {
     icon.classList.remove('animated');
