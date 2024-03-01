@@ -3,7 +3,7 @@
     --dark-color: #2b2b2b;
     --dark-icon-color: #fff;
     --light-color: #f7f7f7;
-    --light-icon-color: #ffde59;
+    --light-icon-color: #ffd900;
 }
 
 *{
@@ -22,7 +22,6 @@ body{
 }
 body h1{
     margin-top: 50px;
-    /* color: #eee; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
 }
