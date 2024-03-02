@@ -5,3 +5,7 @@
 [Change shape and Color](https://rishavy.github.io/JavaScript-Projects/Change%20shape%20and%20Color/index.html)<img style="height: 13px; width: 30px;" src="https://excelkid.com/wp-content/uploads/2020/09/Change-Shape-Color-based-on-a-cell-value.png" alt="Change shape and Color">
 
 [Lht/Dark mode Switcher  ](https://rishavy.github.io/JavaScript-Projects/Dark%20Mode/index.html?authuser=1)<img style="height: 18px; width: 18px;" src="https://nickjohn.gallerycdn.vsassets.io/extensions/nickjohn/autothemeswitcherforwin10darkmode/0.8/1625713621041/Microsoft.VisualStudio.Services.Icons.Default" alt="Light/Dark mode Switcher">
+
+[Generating the keyboard code  ](https://rishavy.github.io/JavaScript-Projects/Generating%20the%20keyboard%20code/index.html)<img style="height: 15px; width: 25px;" src="https://static.vecteezy.com/system/resources/previews/031/734/606/large_2x/computer-keyboard-with-numbers-and-letters-3d-rendering-toned-image-coding-programming-developing-typing-script-source-languages-symbols-project-data-showing-in-screen-close-up-ai-generated-free-photo.jpg" alt="Generating the keyboard code">
+
+<!-- []()<img style="height: 15px; width: 25px;" src="" alt="Generating the keyboard code"> -->
