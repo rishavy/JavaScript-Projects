@@ -1,26 +1,26 @@
-const button = document.getElementById("calculate-btn");
-const bdayBtn = document.getElementById("enter-date");
-const yearBtn = document.getElementById("year-btn");
-const monBtn = document.getElementById("month-btn");
-const dayBtn = document.getElementById("day-btn");
+const calculatebt = document.getElementById("calculate-btn");
+const datebt = document.getElementById("enter-date");
+const yearbt = document.getElementById("year-btn");
+const monthbt = document.getElementById("month-btn");
+const daybt = document.getElementById("day-btn");
 
 function calAge() {
-    const bdayValue = bdayBtn.value;
-    if (bdayValue === "") {
+    const ageValue = datebt.value;
+    if (ageValue === "") {
         alert("Please Enter your Date of Birth");
     } else {
-        const { age, month, day } = calculateAge(bdayValue);
+        const { age, month, day } = calculateAge(ageValue);
         console.log(age);
 
-        yearBtn.innerText = age;
-        monBtn.innerText = month;
-        dayBtn.innerText = day;
+        yearbt.innerText = age;
+        monthbt.innerText = month;
+        daybt.innerText = day;
     }
 }
 
-function calculateAge(bdayValue) {
+function calculateAge(ageValue) {
     const currentDate = new Date();
-    const bdayDate = new Date(bdayValue);
+    const bdayDate = new Date(ageValue);
 
     let age = currentDate.getFullYear() - bdayDate.getFullYear();
     let month = currentDate.getMonth() - bdayDate.getMonth();
@@ -41,4 +41,4 @@ function calculateAge(bdayValue) {
     return { age, month, day };
 }
 
-button.addEventListener("click", calAge);
+calculatebt.addEventListener("click", calAge);
