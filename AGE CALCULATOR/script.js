@@ -1,70 +1,53 @@
-const button = document.getElementById("btn")
-const bdayBtn = document.getElementById("inp-date")
-const yearBtn = document.getElementById("yearBtn")
-const monBtn = document.getElementById("monthBtn")
-const dayBtn = document.getElementById("dayBtn")
-
+const button = document.getElementById("calculate-btn");
+const bdayBtn = document.getElementById("enter-date");
+const yearBtn = document.getElementById("year-btn");
+const monBtn = document.getElementById("month-btn");
+const dayBtn = document.getElementById("day-btn");
 
 function calAge() {
     const bdayValue = bdayBtn.value;
     if (bdayValue === "") {
-        alert("Please Enter your Birthday")
+        alert("Please Enter your Date of Birth");
     } else {
-        const age = getAge(bdayValue)
-        const month = getMonth(bdayValue)
-        const day = getDay(bdayValue)
-        console.log(age)
+        const age = getAge(bdayValue);
+        const { month, day } = getMonthAndDay(bdayValue);
+        console.log(age);
 
-        yearBtn.innerText = age
-        monBtn.innerText = month
-        dayBtn.innerText = day
+        yearBtn.innerText = age;
+        monBtn.innerText = month;
+        dayBtn.innerText = day;
     }
 }
 
 function getAge(bdayValue) {
+    const currDate = new Date();
+    const bdayDate = new Date(bdayValue);
 
-    const currDate = new Date()
-    const bdayDate = new Date(bdayValue)
-
-    let age = currDate.getFullYear() - bdayDate.getFullYear()
-    const month = currDate.getMonth() - bdayDate.getMonth()
+    let age = currDate.getFullYear() - bdayDate.getFullYear();
+    const month = currDate.getMonth() - bdayDate.getMonth();
 
     if (month < 0 || (month === 0 && currDate.getDate() < bdayDate.getDate())) {
-        age--
+        age--;
     }
 
-    return age
+    return age;
 }
 
-function getMonth(bdayValue) {
+function getMonthAndDay(bdayValue) {
     const currentDate = new Date();
     const birthdayDate = new Date(bdayValue);
 
     let age = currentDate.getFullYear() - birthdayDate.getFullYear();
-    let month = currentDate.getMonth() - birthdayDate.getMonth();
-
-    if (month < 0 || (month === 0 && currentDate.getDate() < birthdayDate.getDate())) {
-        month = 12 + month - 1; // Adjust month difference
-    }
-
-    return month;
-}
-
-function getDay(bdayValue) {
-    const currentDate = new Date();
-    const birthdayDate = new Date(bdayValue);
-
-    let age = currentDate.getFullYear() - birthdayDate.getFullYear();
-    const month = currentDate.getMonth() - birthdayDate.getMonth();
-
+    let month = age * 12 + currentDate.getMonth() - birthdayDate.getMonth();
     let day = currentDate.getDate() - birthdayDate.getDate();
 
     if (day < 0 || (day === 0 && currentDate.getMonth() < birthdayDate.getMonth())) {
-        day = Math.abs(day);
-        day = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0).getDate() - day;
+        const lastMonthDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0);
+        day = lastMonthDate.getDate() - Math.abs(day);
+        month--;
     }
 
-    return day;
+    return { month, day };
 }
 
-btn.addEventListener("click", calAge)
+button.addEventListener("click", calAge);
