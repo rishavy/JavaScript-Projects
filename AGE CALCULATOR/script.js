@@ -9,8 +9,7 @@ function calAge() {
     if (bdayValue === "") {
         alert("Please Enter your Date of Birth");
     } else {
-        const age = getAge(bdayValue);
-        const { month, day } = getMonthAndDay(bdayValue);
+        const { age, month, day } = calculateAge(bdayValue);
         console.log(age);
 
         yearBtn.innerText = age;
@@ -19,35 +18,27 @@ function calAge() {
     }
 }
 
-function getAge(bdayValue) {
-    const currDate = new Date();
+function calculateAge(bdayValue) {
+    const currentDate = new Date();
     const bdayDate = new Date(bdayValue);
 
-    let age = currDate.getFullYear() - bdayDate.getFullYear();
-    const month = currDate.getMonth() - bdayDate.getMonth();
+    let age = currentDate.getFullYear() - bdayDate.getFullYear();
+    let month = currentDate.getMonth() - bdayDate.getMonth();
+    let day = currentDate.getDate() - bdayDate.getDate();
 
-    if (month < 0 || (month === 0 && currDate.getDate() < bdayDate.getDate())) {
+    if (month < 0 || (month === 0 && currentDate.getDate() < bdayDate.getDate())) {
         age--;
+        month += 12;
     }
 
-    return age;
-}
-
-function getMonthAndDay(bdayValue) {
-    const currentDate = new Date();
-    const birthdayDate = new Date(bdayValue);
-
-    let age = currentDate.getFullYear() - birthdayDate.getFullYear();
-    let month = age * 12 + currentDate.getMonth() - birthdayDate.getMonth();
-    let day = currentDate.getDate() - birthdayDate.getDate();
-
-    if (day < 0 || (day === 0 && currentDate.getMonth() < birthdayDate.getMonth())) {
-        const lastMonthDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0);
-        day = lastMonthDate.getDate() - Math.abs(day);
+    if (day < 0) {
+        const lastMonthDate = new Date(currentDate.getFullYear(), currentDate.getMonth() - 1, bdayDate.getDate());
+        const daysInLastMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0).getDate();
+        day = daysInLastMonth - lastMonthDate.getDate() + currentDate.getDate();
         month--;
     }
 
-    return { month, day };
+    return { age, month, day };
 }
 
 button.addEventListener("click", calAge);
