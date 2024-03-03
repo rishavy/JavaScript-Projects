@@ -5,35 +5,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+  <link rel="icon" href="https://image.winudf.com/v2/image1/Y29tLnNhcHBhcnJheS5hZ2VjYWxjdWxhdG9yX2ljb25fMTU1MzM4NjI1N18wNDk/icon.png?w=184&fakeurl=1">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>Age Calculator</title>
 </head>
 <body>
+  
 
-  <div class="main-contaier">
-    <div class="container">
-      <div class="upper">
-        <input type="date" name="" id="inp-date" />
-        <button id="btn">Calculate</button>
+  <div class="container">
+      <h1 class="calculator">Age Calculator</h1>
+
+      <div class="head">
+        <h3 class="enter-bod">Enter your Date of Birth &nbsp; &nbsp; &#128071;</h3>
+        <a href="https://rishavy.github.io/JavaScript-Projects/AGE%20CALCULATOR/index.html"><i class="ri-refresh-line"></i></a>
       </div>
 
-      <div class="lower">
-        <div class="year same-id">
-          <h1 id="yearBtn">-</h1>
+    <div class="display">
+      <div class="enter-dt">
+        <input type="date" name="" id="enter-date" />
+        <button id="calculate-btn">Calculate</button>
+      </div>
+
+      <div class="display-age">
+        <div class="year age">
+          <h1 id="year-btn">-</h1>
           <span>Years</span>
         </div>
-        <div class="month same-id">
-          <h1 id="monthBtn">-</h1>
+        <div class="month age">
+          <h1 id="month-btn">-</h1>
           <span>Month</span>
         </div>
-        <div class="days same-id">
-          <h1 id="dayBtn">-</h1>
+        <div class="days age">
+          <h1 id="day-btn">-</h1>
           <span>Days</span>
         </div>
       </div>
     </div>
   </div>
-  
+
   <script src="./script.js"></script>
 </body>
 </html>
