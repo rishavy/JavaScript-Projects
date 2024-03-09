@@ -11,4 +11,4 @@
 
 [Age Calculatoe](https://rishavy.github.io/JavaScript-Projects/AGE%20CALCULATOR/index.html) &nbsp;<img style="height: 15px; width: 15px;" src="https://image.winudf.com/v2/image1/Y29tLnNhcHBhcnJheS5hZ2VjYWxjdWxhdG9yX2ljb25fMTU1MzM4NjI1N18wNDk/icon.png?w=184&fakeurl=1" alt="Age Calculatoe">
 
-[Emoji Project]() &nbsp;<img style="height: 15px; width: 25px;" src="" alt="">
+[Emoji Project](https://rishavy.github.io/JavaScript-Projects/Emoji%20Project/index.html) &nbsp;<img style="height: 15px; width: 25px;" src="" alt="">
