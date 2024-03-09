@@ -10,3 +10,5 @@
 [Generating the keyboard code](https://rishavy.github.io/JavaScript-Projects/Generating%20the%20keyboard%20code/index.html) &nbsp;<img style="height: 15px; width: 25px;" src="https://static.vecteezy.com/system/resources/previews/031/734/606/large_2x/computer-keyboard-with-numbers-and-letters-3d-rendering-toned-image-coding-programming-developing-typing-script-source-languages-symbols-project-data-showing-in-screen-close-up-ai-generated-free-photo.jpg" alt="Generating the keyboard code">
 
 [Age Calculatoe](https://rishavy.github.io/JavaScript-Projects/AGE%20CALCULATOR/index.html) &nbsp;<img style="height: 15px; width: 15px;" src="https://image.winudf.com/v2/image1/Y29tLnNhcHBhcnJheS5hZ2VjYWxjdWxhdG9yX2ljb25fMTU1MzM4NjI1N18wNDk/icon.png?w=184&fakeurl=1" alt="Age Calculatoe">
+
+[Emoji Project]() &nbsp;<img style="height: 15px; width: 25px;" src="" alt="">
