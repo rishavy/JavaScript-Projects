@@ -11,6 +11,6 @@
 
 [Age Calculatoe](https://rishavy.github.io/JavaScript-Projects/AGE%20CALCULATOR/index.html) &nbsp;<img style="height: 15px; width: 15px;" src="https://image.winudf.com/v2/image1/Y29tLnNhcHBhcnJheS5hZ2VjYWxjdWxhdG9yX2ljb25fMTU1MzM4NjI1N18wNDk/icon.png?w=184&fakeurl=1" alt="Age Calculatoe">
 
-[Emoji Project](https://rishavy.github.io/JavaScript-Projects/Emoji%20Project/index.html) &nbsp;<img style="height: 15px; width: 25px;" src="" alt="">
+[Emoji Project](https://rishavy.github.io/JavaScript-Projects/Emoji%20Project/index.html) &nbsp;<img style="height: 19px; width: 19px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Weekly%20test%20-%203/images/1.png?raw=true" alt="Emoji Project">
 
 [Weekly test - 3](https://rishavy.github.io/JavaScript-Projects/Weekly%20test%20-%203/index.html) &nbsp;<img style="height: 18px; width: 18px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Weekly%20test%20-%203/images/cart.png?raw=true" alt="Weekly test - 3">
