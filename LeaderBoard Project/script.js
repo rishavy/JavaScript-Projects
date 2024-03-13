@@ -1,30 +1,17 @@
-const initialPlayers = [
+const playerData = [
   {
-    firstName: "Sachin",
-    lastName: "Tendulkar",
-    country: "IN",
-    score: 143,
+    firstName: "Sachin", lastName: "Tendulkar", country: "IN", score: 143,
     joinedAt: new Date().toLocaleString(),
   },
   {
-    firstName: "Rohit",
-    lastName: "Sharma",
-    country: "IN",
-    score: 109,
+    firstName: "Rohit", lastName: "Sharma", country: "IN", score: 109,
     joinedAt: new Date().toLocaleString(),
   },
   {
-    firstName: "Donald",
-    lastName: "Bradman",
-    country: "AU",
-    score: 101,
+    firstName: "Donald", lastName: "Bradman", country: "AU", score: 101,
     joinedAt: new Date().toLocaleString(),
   },
 ];
-
-
-
-const playerData = [...initialPlayers];
 
 function addPlayer(){
   const firstName = document.getElementById("fname").value;
@@ -112,8 +99,13 @@ function decreaseScore(playerIndex) {
 
 document.getElementById("add_player").addEventListener("click", addPlayer);
 
+//display
+document.addEventListener("DOMContentLoaded", function() {
 const storedPlayers = localStorage.getItem("players");
 if (storedPlayers) {
   playerData = JSON.parse(storedPlayers); 
   showPlayerData(); 
 }
+});
+
+window.onload = showPlayerData;
