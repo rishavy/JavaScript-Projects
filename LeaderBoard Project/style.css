@@ -10,8 +10,8 @@ body{
     text-align: center;
     justify-content: center;
     font-family: sans-serif;
-    background-color: #423935;
-    background-image: url("./maxresdefault.jpg");
+    background-color: #5dd5f3d8;
+    background-image: url("./assest/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #fcae8a; */
@@ -28,9 +28,13 @@ body{
 }
 
 .board{
-    font-size: 50px;
-    color: #eee;
+    font-size: 65px;
+    color: #fff;
     /* margin: 10px; */
+}
+.board>img{
+    margin: 0 20px;
+    height: 65px;
 }
 
 #enter_data{
@@ -56,8 +60,12 @@ body{
     border: none;
     cursor: pointer;
     background-color: #5dd5f3d8;
-    font-weight: 600;
-    box-shadow: 0px 0px 2px 2px #fdf5df80;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0px 0px 2px 2px #faf4e5c9;
+}
+#enter_data>button:hover{
+    background-color: #48b8d4c9;
 }
 
 .index{
@@ -87,7 +95,7 @@ body{
     border-bottom: 1px solid #eee;
 }
 .player-row:hover{
-    background-color: #5dd5f3b6;
+    background-color: #5dd5f380;
 }
 
 .rank{
@@ -104,7 +112,7 @@ body{
     width: 120px;  
 }
 .country>img{
-    height: 15px;
+    height: 18px;
     margin: 0px 30px 0px 0px;
 }
 
@@ -160,4 +168,5 @@ body{
     width: 110px;
     margin: 5px 10px;
     font-weight: normal;
+    color: #eeeeeed7;
 }
