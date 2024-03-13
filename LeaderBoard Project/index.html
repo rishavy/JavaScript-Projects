@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main_container">
+
+        <h1 class="board">Leader Board</h1>
+        <div id="enter_data">
+            <input type="text" name="name" class="fname" id="fname" placeholder="First Name">
+            <input type="text" name="name" class="lname" id="lname" placeholder="Last Name">
+            <!-- <input type="text" name="name" id="country" placeholder="Country"> -->
+
+            <select id="country">
+                <option value="">Select Country</option>
+                <option value="">Select Country</option>
+                <option value="AF"><img src="./Flags/af.png" alt="Afghanistan Flag">Afghanistan</option>
+                <option value="AU"><img src="./Flags/au.png" alt="Australia Flag">Australia</option>
+                <option value="BD"><img src="./Flags/bd.png" alt="Bangladesh Flag">Bangladesh</option>
+                <option value="WI"><img src="./Flags/wi.jpg" alt="West Indies Flag">West Indies</option>
+                <option value="ENG"><img src="./Flags/gb-eng.png" alt="England Flag">England</option>
+                <option value="SL"><img src="./Flags/sl.png" alt="Sri Lanka Flag">Sri Lanka</option>
+                <option value="NZ"><img src="./Flags/nz.png" alt="New Zealand Flag">New Zealand</option>
+                <option value="SA"><img src="./Flags/sa.png" alt="South Africa Flag">South Africa</option>
+                <option value="PAK"><img src="./Flags/pk.png" alt="Pakistan Flag">Pakistan</option>
+                <option value="IN"><img src="./Flags/in.png" alt="India Flag">India</option>
+                <option value="IRE"><img src="./Flags/ie.png" alt="Ireland Flag">Ireland</option>
+                <option value="UAE"><img src="./Flags/ae.png" alt="United Arab Emirates Flag">United Arab Emirates</option>
+                <option value="NAM"><img src="./Flags/na.png" alt="Namibia Flag">Namibia</option>
+                <option value="NED"><img src="./Flags/nl.png" alt="Netherlands Flag">Netherlands</option>
+                <option value="PNG"><img src="./Flags/pg.png" alt="Papua New Guinea Flag">Papua New Guinea</option>
+                <option value="SCO"><img src="./Flags/gb-sct.png" alt="Scotland Flag">Scotland</option>
+                <option value="ZIM"><img src="./Flags/zm.png" alt="Zimbabwe Flag">Zimbabwe</option>
+                <option value="USA"><img src="./Flags/us.png" alt="Leader Board">United States</option>
+                <option value="KEN"><img src="./Flags/kn.png" alt="Kenya Flag">Kenya</option>
+                <option value="OMN"><img src="./Flags/om.png" alt="Oman Flag">Oman</option>
+                <option value="NJER"><img src="./Flags/je.png" alt="Jersey Flag">Jersey</option>
+                <option value="SGP"><img src="./Flags/sg.png" alt="Singapore Flag">Singapore</option>
+                <option value="MLT"><img src="./Flags/ml.png" alt="Malta Flag">Malta</option>
+                <option value="DEN"><img src="./Flags/de.png" alt="Denmark Flag">Denmark</option>
+                <option value="CAN"><img src="./Flags/ca.png" alt="Canada Flag">Canada</option>
+                <option value="ARG"><img src="./Flags/ag.png" alt="Argentina Flag">Argentina</option>
+                <option value="FIJ"><img src="./Flags/fi.png" alt="Fiji Flag">Fiji</option>
+
+                </select>
+
+            <input type="number" name="score" id="submit" placeholder="Score">
+            <button id="add_player">Add Player</button>
+        </div>
+        <div id="data">
+            <div class="index">
+                <p>Rank</p>
+                <p>Name</p>
+                <p>Country</p>
+                <p>Score</p>
+                <p>Score Count</p>
+                <p>Delete</p>
+                <p>Time & Date</p>
+            </div>
+            <div id="player_data">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
