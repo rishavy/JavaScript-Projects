@@ -14,3 +14,5 @@
 [Emoji Project](https://rishavy.github.io/JavaScript-Projects/Emoji%20Project/index.html) &nbsp;<img style="height: 19px; width: 19px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Weekly%20test%20-%203/images/1.png?raw=true" alt="Emoji Project">
 
 [Weekly test - 3](https://rishavy.github.io/JavaScript-Projects/Weekly%20test%20-%203/index.html) &nbsp;<img style="height: 18px; width: 18px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Weekly%20test%20-%203/images/cart.png?raw=true" alt="Weekly test - 3">
+
+[LeaderBoard Project](https://rishavy.github.io/JavaScript-Projects/LeaderBoard%20Project/index.html) &nbsp;<img style="height: 18px; width: 18px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/LeaderBoard%20Project/assest/icon.png?raw=true" alt="LeaderBoard Project">
