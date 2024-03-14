@@ -19,3 +19,5 @@
 
 [Stop Watch](https://rishavy.github.io/JavaScript-Projects/Stop%20Watch/index.html) &nbsp;<img style="height: 20px; width: 20px;" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/stopwatch-3701359-3089846.png?f=webp" alt="Stop Watch">
 
+[Digital Clock]() &nbsp;<img style="height: 15px; width: 25px;" src="" alt="Digital Clock">
+
