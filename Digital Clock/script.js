@@ -1,5 +1,5 @@
-const months = ["Jan", "Feb", "March", "April", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 setInterval(() => {
     let currentTime = new Date();
     let hrs = document.getElementById('hrs');
@@ -9,10 +9,18 @@ setInterval(() => {
     let dat = document.getElementById('date');
     let day = document.getElementById('day');
     let month = document.getElementById('month');
-    hrs.innerHTML = (currentTime.getHours() < 10 ? "0" : "") + currentTime.getHours();
+
+    // to 12-hour format
+    let hours = currentTime.getHours();
+    let amPmIndicator = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12; // 12 for AM/PM
+    
+    // adjusted time
+    hrs.innerHTML = (hours < 10 ? "0" : "") + hours;
     min.innerHTML = (currentTime.getMinutes() < 10 ? "0" : "") + currentTime.getMinutes();
     sec.innerHTML = (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
-    ampm.innerHTML = currentTime.getHours() >= 12 ? "PM" : "AM";
+    ampm.innerHTML = amPmIndicator;
+
     day.innerHTML = days[currentTime.getDay()];
     dat.innerHTML = currentTime.getDate();
     month.innerHTML = months[currentTime.getMonth()];
