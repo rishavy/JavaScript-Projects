@@ -14,6 +14,8 @@ This project creates a visually appealing digital clock using HTML, CSS, and Jav
 - Stylish layout with Bootstrap CSS.
 - Responsive design for various screen sizes.
 
+You can view a live demo of the project [here...](https://rishavy.github.io/JavaScript-Projects/Digital%20Clock/index.html).
+
 ## Usage
 
 1. Clone the repository to your local machine:
