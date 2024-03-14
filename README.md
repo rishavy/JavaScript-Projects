@@ -16,3 +16,6 @@
 [Weekly test - 3](https://rishavy.github.io/JavaScript-Projects/Weekly%20test%20-%203/index.html) &nbsp;<img style="height: 18px; width: 18px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Weekly%20test%20-%203/images/cart.png?raw=true" alt="Weekly test - 3">
 
 [LeaderBoard Project](https://rishavy.github.io/JavaScript-Projects/LeaderBoard%20Project/index.html) &nbsp;<img style="height: 18px; width: 18px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/LeaderBoard%20Project/assest/icon.png?raw=true" alt="LeaderBoard Project">
+
+[Stop Watch](https://rishavy.github.io/JavaScript-Projects/Stop%20Watch/index.html) &nbsp;<img style="height: 20px; width: 20px;" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/stopwatch-3701359-3089846.png?f=webp" alt="Stop Watch">
+
