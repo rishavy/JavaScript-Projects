@@ -41,7 +41,3 @@ You can view a live demo of the project [here...](https://rishavy.github.io/Java
 ## Credits
 
 This project is created by Rishav Yadav as a demonstration of front-end web development skills.
-
-## License
-
-This project is licensed under the [MIT License](https://github.com/rishavy/JavaScript-Projects/blob/main/Digital%20Clock/LICENSE.md).
