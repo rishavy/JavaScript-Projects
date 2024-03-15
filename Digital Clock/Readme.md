@@ -38,6 +38,3 @@ You can view a live demo of the project [here...](https://rishavy.github.io/Java
 - CSS (Bootstrap)
 - JavaScript
 
-## Credits
-
-This project is created by Rishav Yadav as a demonstration of front-end web development skills.
