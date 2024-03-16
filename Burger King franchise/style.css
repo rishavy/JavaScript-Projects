@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fce8f4c5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1,
+h2{
+  color: #000000;
+  background-color: #ffce46;
+  padding: 8px;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+.menu {
+  text-align: left;
+}
+.menu>label{
+    font-size: 20px;
+}
+
+#loading {
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+#orderBtn{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ff8989;
+    /* background-color: #fa5454; */
+    font-size: 20px;
+    border: 0;
+    box-shadow: 2px 2px #5c5454a6;
+    cursor: pointer;
+}
+#orderBtn:hover{
+    background-color: #fd1f1f;
+}
+
+#foodImage {
+  margin-top: 20px;
+}
+
+#orderID {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+}
