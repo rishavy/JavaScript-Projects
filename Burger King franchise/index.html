@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" href="./assets/icon.png">
   <link rel="stylesheet" href="./style.css">
   <title>Burger King Virtual Food Ordering</title>
 </head>
 <body>
-
   <div class="container">
-
     <h1>Welcome to Burger King <br> Virtual Ordering</h1>
-
     <div class="menu">
       <h2>Menu</h2>
-
       <div class="menu-options">
         <label><input type="checkbox" name="food" value="Whopper">Whopper</label><br>
         <label><input type="checkbox" name="food" value="Fries">Fries</label><br>
@@ -26,20 +20,15 @@
         <label><input type="checkbox" name="food" value="Drink">Drink</label><br>
         <label><input type="checkbox" name="food" value="Combo">Combo</label>
       </div>
-
     </div>
-
     <button id="orderBtn">Order Food</button>
     <div id="loading" class="hidden">Processing your order...</div>
-    
     <div id="orderDetails" class="hidden">
       <h2>Your Order</h2>
       <div id="foodImage"></div>
       <span id="orderID"></span>
     </div>
   </div>
-
   <script src="./script.js"></script>
-
 </body>
 </html>
