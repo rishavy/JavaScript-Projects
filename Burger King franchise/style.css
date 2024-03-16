@@ -5,8 +5,8 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 15px auto;
+  padding: 15px;
   background-color: #fce8f4c5;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -14,10 +14,10 @@ body {
 }
 
 h1,
-h2{
+h2 {
   color: #000000;
   background-color: #ffce46;
-  padding: 8px;
+  padding: 7px;
   border-radius: 10px;
   margin-top: 0;
 }
@@ -25,8 +25,17 @@ h2{
 .menu {
   text-align: left;
 }
-.menu>label{
-    font-size: 20px;
+.menu-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu-options > label {
+  /* border: 1px solid red; */
+  font-size: 18px;
+  width: calc(33.33% - 10px);
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 #loading {
@@ -36,23 +45,28 @@ h2{
 .hidden {
   display: none;
 }
-#orderBtn{
-    margin: 10px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    background-color: #ff8989;
-    /* background-color: #fa5454; */
-    font-size: 20px;
-    border: 0;
-    box-shadow: 2px 2px #5c5454a6;
-    cursor: pointer;
+#orderBtn {
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #ff8989;
+  /* background-color: #fa5454; */
+  font-size: 20px;
+  border: 0;
+  box-shadow: 2px 2px #5c5454a6;
+  cursor: pointer;
 }
-#orderBtn:hover{
-    background-color: #fd1f1f;
+#orderBtn:hover {
+  background-color: #fd1f1f;
 }
 
 #foodImage {
   margin-top: 20px;
+}
+#foodImage > img {
+  width: 270px;
+  height: 270px;
+  margin: 5px;
 }
 
 #orderID {
