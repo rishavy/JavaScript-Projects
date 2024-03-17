@@ -22,3 +22,5 @@
 [Digital Clock](https://rishavy.github.io/JavaScript-Projects/Digital%20Clock/index.html) &nbsp;<img style="height: 18px; width: 25px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Digital%20Clock/clock.PNG?raw=true" alt="Digital Clock">
 
 [Burger King franchise](https://rishavy.github.io/JavaScript-Projects/Burger%20King%20franchise/index.html) &nbsp;<img style="height: 20px; width: 20px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Burger%20King%20franchise/assets/icon.png?raw=true" alt="Burger King franchise">
+
+[Weekly Test - 4](https://rishavy.github.io/JavaScript-Projects/Weekly%20Test%20-%204/index.html)
