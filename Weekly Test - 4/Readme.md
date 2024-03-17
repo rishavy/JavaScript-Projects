@@ -20,6 +20,10 @@ Phone Hunting is a web application that allows users to search for phone details
    - Click on a phone card to display detailed information about that specific phone, including specifications, release date, and an image.
    - Close the detailed information modal by clicking the "Close" button.
 
+## Live Demo
+
+You can access the live demo of the Phone Hunting web application [here](https://rishavy.github.io/JavaScript-Projects/Weekly%20Test%20-%204/index.html).
+
 
 ## Technologies Used
 
