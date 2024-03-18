@@ -2,7 +2,7 @@ let jokeButton = document.getElementById("joke-button");
 let jokeBox = document.getElementById("joke-text");
 let loaderContainer = document.querySelector(".loaderContainer");
 
-const apiKey = "4kqGcJx8uDXo3XIskcbzokAz7rN8nWJs3PL9Mcll";
+const apiKey = "OIABgbfrvWWOgzlpGyfyDg==UJ7JWgZmZBRHc5uP";
 jokeBox.style.display = "";
 const options = {
   method: "GET",
