@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./jokewebicon.png">
+    <title>Jokes Generator</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe3af;
+        }
+
+        header {
+            background-color: #ffcc66;
+            padding: 20px 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        #joke-container {
+            margin-bottom: 30px;
+        }
+
+        #joke-text {
+            font-size: 1.5em;
+        }
+
+        .loaderContainer{
+            display: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #cc3333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Jokes Generator</h1>
+    </header>
+    <main>
+        <div id="joke-container">
+            <p id="joke-text">Press the button for a joke!</p>
+        </div>
+        <div class="loaderContainer">
+
+        </div>
+        <button id="joke-button">Tell Me A Joke</button>
+    </main>
+    <footer>
+        <p>Made with ❤️ </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
