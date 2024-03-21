@@ -29,3 +29,5 @@
 
 
 [Image Search App](https://rishavy.github.io/JavaScript-Projects/Image%20Search%20App/index.html) &nbsp;<img style="height: 20px; width: 20px;" src="https://github.com/rishavy/JavaScript-Projects/blob/main/Image%20Search%20App/img%20icon.png?raw=true" alt="Image Search App">
+
+[Pokemon Task](https://rishavy.github.io/GeeksterPok/) &nbsp;<img style="height: 25px; width: 25px;" src="https://github.com/rishavy/GeeksterPok/blob/main/assest/png-clipart-pokeball-pokeball.png?raw=true" alt="GeeksterPok">
