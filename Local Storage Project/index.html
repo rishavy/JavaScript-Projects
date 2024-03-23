@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: #5fa0fa; 
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            background-color: #fff; 
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        #text-area {
+            width: 95%;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 2px solid #4a90e2;
+            padding: 10px;
+            color: #333;
+            outline: none;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Auto Save Textarea</h1>
+        <textarea id="text-area" placeholder="Start typing here..." rows="10" cols="50"></textarea>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
