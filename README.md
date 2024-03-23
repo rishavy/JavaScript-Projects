@@ -33,3 +33,5 @@
 [Pokemon Task](https://rishavy.github.io/GeeksterPok/) &nbsp;<img style="height: 25px; width: 25px;" src="https://github.com/rishavy/GeeksterPok/blob/main/assest/png-clipart-pokeball-pokeball.png?raw=true" alt="GeeksterPok">
 
 [Card project](https://rishavy.github.io/JavaScript-Projects/Card%20Project/index.html)
+
+[Local Storage Project](https://rishavy.github.io/JavaScript-Projects/Local%20Storage%20Project/index.html)
