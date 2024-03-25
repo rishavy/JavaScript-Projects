@@ -53,6 +53,19 @@ input[type="text"]{
     border: 1px solid red;
 } */
 
+a{
+    text-decoration: none;
+    color: #111;
+}
+a:hover{
+    color: #4d4d4d;
+}
+
+/* .movie-details{
+    display: none;
+    margin-top: 20px;
+} */
+
 #loadMoreBtn{
     padding: 10px;
     border-radius: 10px;
@@ -60,9 +73,12 @@ input[type="text"]{
     box-shadow: 0 3px 2px 2px #111 ;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ff6f6f;
+    background-color: #f76868;
     cursor: pointer;
     /* visibility: hidden; */
+}
+#loadMoreBtn:hover{
+    background-color: #ff2e2eea;
 }
 
 .footer{
