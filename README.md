@@ -35,3 +35,5 @@
 [Card project](https://rishavy.github.io/JavaScript-Projects/Card%20Project/index.html)
 
 [Local Storage Project](https://rishavy.github.io/JavaScript-Projects/Local%20Storage%20Project/index.html)
+
+[Movie Search](https://rishavy.github.io/JavaScript-Projects/Movie%20Search/index.html?authuser=1)
