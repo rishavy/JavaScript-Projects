@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #076dda;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px #0000001a;
+  padding: 30px;
+}
+
+.container .input-box {
+  position: relative;
+  margin-bottom: 20px; 
+}
+
+.container .input-box input {
+  height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  outline: none;
+  font-size: 16px;
+}
+
+.container .input-box #copy-btn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  color: #666; 
+  font-size: 20px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: color 0.3s ease;
+}
+
+.container .input-box #copy-btn:hover {
+  color: #333; 
+}
+
+.container .checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px; 
+}
+
+.container .checkboxes label {
+  margin-right: 10px;
+}
+
+.container .length-input {
+  margin-bottom: 20px; 
+}
+
+.container .length-input label {
+  margin-right: 10px; 
+}
+
+.container #length{
+    padding: 5px;
+}
+
+.container .generate-button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.container .generate-button:hover {
+  background-color: #0056b3;
+}
