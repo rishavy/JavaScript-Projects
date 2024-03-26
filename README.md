@@ -37,3 +37,5 @@
 [Local Storage Project](https://rishavy.github.io/JavaScript-Projects/Local%20Storage%20Project/index.html)
 
 [Movie Search](https://rishavy.github.io/JavaScript-Projects/Movie%20Search/index.html?authuser=1)
+
+[Password Generator](https://rishavy.github.io/JavaScript-Projects/Password%20Generator/index.html)
