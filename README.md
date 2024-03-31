@@ -39,3 +39,5 @@
 [Movie Search](https://rishavy.github.io/JavaScript-Projects/Movie%20Search/index.html?authuser=1)
 
 [Password Generator](https://rishavy.github.io/JavaScript-Projects/Password%20Generator/index.html)
+
+[Crypto Search Application](https://rishavy.github.io/JavaScript-Projects/Crypto%20Search%20Application/?authuser=1) &nbsp;<img style="width: 30px;" src="https://brave.com/static-assets/images/optimized/wallet/images/multi-chain-logos.png" alt="Crypto Search Application">
