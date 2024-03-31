@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    background-color: #000218;
+    /* background-color: #000018; */
+    /* background-color: #090018; */
+    /* background-color: #131722; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: #000320;
+}
+.logo{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header a{
+    margin-right: 10px;
+    color: #fff;
+    /* border: 1px solid red; */
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover{
+    color: #c5c5c5;
+}
+
+.crypto-head{
+    margin: 0;
+    padding: 120px;
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://t4.ftcdn.net/jpg/04/44/91/89/360_F_444918960_3UfJsxKqmwAZzWky7nqCY2EF0GRQQEVt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dec h2{
+    font-size: 60px;
+    letter-spacing: 5px;   
+}
+.dec p{
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #e7e7e7;
+    letter-spacing: 1px;
+}
+.dec button{
+    margin-top: 10px;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tradingview-widget-container{
+    margin: 20px;
+}
+.tradingview-widget-container h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 5px;
+}
+
+
+/* -------------------------------- */
+
+.footer {
+    margin-top: 90px;
+    justify-content: space-between;
+    background-color: #000320;
+    color: #fff;
+    padding: 70px;
+    /* border: 1px solid red; */
+}
+
+.f-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px; 
+}
+.f-logo{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer-links a:hover {
+    color: #c5c5c5;
+}
+
+.social-media a {
+    color: #fff; 
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    color: #c5c5c5;
+}
+
+.p1 {
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #c5c5c5;
+}
