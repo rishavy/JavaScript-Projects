@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3209/3209265.png">
     <link rel="stylesheet" href="./style.css">
     <title>Sticky-Notes</title>
-
 </head>
 <body>
     <div class="head">
-        <h1>Stiky Notes</h1>
+        <h1>Sticky Notes</h1>
     </div>
     
     <div id="container">
-        <div id="addNote">
-            <div class="title-box">
-                <input type="text" id="noteTitle" placeholder="Enter title...">
-                <input type="color" id="noteColor" value="#a38aff">
+        <div id="note">
+            <div class="title-color">
+                <input type="text" id="note-title" placeholder="Title ...">
+                <input type="color" id="note-color" value="#a38aff">
             </div>
 
-            <textarea id="noteContent" placeholder="Enter note..."></textarea>
-            <button id="btn">Add Note</button>
+            <textarea id="note-text" placeholder="Take a note..." cols="28" rows="10"></textarea>
+            <button id="add-btn">Add Note</button>
         </div>
+
+        <!-- <p>You have not entered any notes</p> -->        
     </div>
 
-    <!-- <p>You have not eneterd any notes</p> -->
-        <script src="./script.js"></script>
-    </body>
+    <script src="./script.js"></script>
+</body>
 </html>
