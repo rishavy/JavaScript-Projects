@@ -32,7 +32,7 @@ function editNote(btn) {
     let textarea = note.querySelector('textarea');
 
     textarea.readOnly = !textarea.readOnly;
-    btn.innerText = textarea.readOnly ? 'Edit' : 'Save';
+    btn.innerText = textarea.readOnly ? '✎' : '✔';
 }
 
 function deleteNote(btn) {
