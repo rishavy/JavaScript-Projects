@@ -41,3 +41,5 @@
 [Password Generator](https://rishavy.github.io/JavaScript-Projects/Password%20Generator/index.html)
 
 [Crypto Search Application](https://rishavy.github.io/JavaScript-Projects/Crypto%20Search%20Application/?authuser=1) &nbsp;<img style="width: 30px;" src="https://brave.com/static-assets/images/optimized/wallet/images/multi-chain-logos.png" alt="Crypto Search Application">
+
+[Sticky Notes](https://rishavy.github.io/JavaScript-Projects/Sticky%20Notes/index.html) &nbsp;<img style="height: 25px; width: 25px;" src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" alt="Sticky Notes">
