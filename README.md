@@ -43,3 +43,5 @@
 [Crypto Search Application](https://rishavy.github.io/JavaScript-Projects/Crypto%20Search%20Application/?authuser=1) &nbsp;<img style="width: 30px;" src="https://brave.com/static-assets/images/optimized/wallet/images/multi-chain-logos.png" alt="Crypto Search Application">
 
 [Sticky Notes](https://rishavy.github.io/JavaScript-Projects/Sticky%20Notes/index.html) &nbsp;<img style="height: 25px; width: 25px;" src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" alt="Sticky Notes">
+
+[GitHub Finder](https://rishavy.github.io/JavaScript-Projects/GitHub%20Finder/index.html) &nbsp;<img style="height: 25px; width: 25px;" src="https://play-lh.googleusercontent.com/mMfew7-NZ_nyh7ODg0RqI0_ashW5DbE7j6ssFPLFjt3DY7lC1Q18GvdJpLJ6Oui6Itg" alt="GitHub Finder">
