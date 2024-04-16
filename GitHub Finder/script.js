@@ -18,10 +18,14 @@ async function api() {
 
         let div = document.createElement("div");
         div.innerHTML = `
+        <div class="intro">
             <img src=${data.avatar_url} height="100px" width="100px">
-            <h1>${data.name}</h1>
-            <p><a href="https://github.com/${data.login}" target="_blank">@${data.login}</a></p>
-            <p>Join Date: ${new Date(data.created_at).toLocaleDateString()}</p>
+            <div class="nav">
+                <h1>${data.name}</h1>
+                <p><a href="https://github.com/${data.login}" target="_blank">@${data.login}</a></p>
+            </div>
+                <p class="join">Joined: ${new Date(data.created_at).toLocaleDateString()}</p>
+        </div>
             <p> ${data.bio || 'Not available'}</p>
             <li class="repos">
                 <p><strong>Public Repos:</strong> ${data.public_repos}</p>
@@ -38,8 +42,17 @@ async function api() {
         container.appendChild(div);
     } catch (error) {
         console.error(error.message);
-        container.innerHTML = `<p>${error.message}</p>`; // error message to the user
+        container.innerHTML = `<p style="color:red" >${error.message}</p>`; // error message to the user in red color
     }
 }
 
 button.addEventListener('click', api);
+
+// enter btn
+function handleKeyPress(event) {
+    if (event.key === 'Enter') {
+        api();
+    }
+}
+
+input.addEventListener('keypress', handleKeyPress);
