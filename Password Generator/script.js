@@ -2,24 +2,36 @@ const passwordInput = document.getElementById("passwordInput");
 const copyBtn = document.getElementById("copy-btn");
 const generateBtn = document.getElementById("generate-button");
 const lengthInput = document.getElementById("length");
+const includeLowercaseCheckbox = document.getElementById("includeLowercase");
+const includeUppercaseCheckbox = document.getElementById("includeUppercase");
 const includeNumericCheckbox = document.getElementById("includeNumeric");
 const includeCharactersCheckbox = document.getElementById("includeCharacters");
 
-// Function to generate a random password
 const generatePass = () => {
   let newPass = "";
-  let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let numeric = "1234567890";
-  let specialCharacters = "()[]<>&%@#";
+  let characters = "";
 
-  // Include numeric characters if checkbox is checked
+  const lowercase = "abcdefghijklmnopqrstuvwxyz";
+  const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const numeric = "0123456789";
+  const specialCharacters = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+
+  if (includeLowercaseCheckbox.checked) {
+    characters += lowercase;
+  }
+  if (includeUppercaseCheckbox.checked) {
+    characters += uppercase;
+  }
   if (includeNumericCheckbox.checked) {
     characters += numeric;
   }
-
-  // Include special characters if checkbox is checked
   if (includeCharactersCheckbox.checked) {
     characters += specialCharacters;
+  }
+
+  if (characters === "") {
+    alert("Please select at least one character type.");
+    return;
   }
 
   for (let i = 0; i < lengthInput.value; i++) {
@@ -28,22 +40,19 @@ const generatePass = () => {
   passwordInput.value = newPass;
 };
 
-// Call the function to generate password on page load
 generatePass();
 
-// Copy Button Click Event Handle
 copyBtn.addEventListener("click", () => {
-    passwordInput.select();
-    document.execCommand("copy");
-    copyBtn.classList.remove("fas", "fa-copy"); // Remove copy icon
-    copyBtn.classList.add("far", "fa-clipboard"); // Add clipboard icon
-    copyBtn.disabled = true; // Disable the button after clicking
-    setTimeout(() => {
-      copyBtn.classList.remove("far", "fa-clipboard"); // Remove clipboard icon
-      copyBtn.classList.add("fas", "fa-copy"); // Add copy icon
-      copyBtn.disabled = false; // Enable the button after 5 seconds
-    }, 5000);
-  });
+  passwordInput.select();
+  document.execCommand("copy");
+  copyBtn.classList.remove("fas", "fa-copy");
+  copyBtn.classList.add("far", "fa-clipboard");
+  copyBtn.disabled = true;
+  setTimeout(() => {
+    copyBtn.classList.remove("far", "fa-clipboard");
+    copyBtn.classList.add("fas", "fa-copy");
+    copyBtn.disabled = false;
+  }, 700);
+});
 
-// Generate Button Click Event Handle
 generateBtn.addEventListener("click", generatePass);
