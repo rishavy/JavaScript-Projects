@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
@@ -11,33 +11,41 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <title>Password Generator</title>
-  </head>
-  <body>
+</head>
+<body>
+    <div class="project-name">
+        <h1>Password Generator</h1>
+    </div>
     <div class="container">
         <div class="input-box">
-          <input type="text" id="passwordInput" readonly />
-          <i class="fas fa-copy" id="copy-btn"></i>
+            <input type="text" id="passwordInput" readonly />
+            <i class="fas fa-copy" id="copy-btn"></i>
         </div>
         <div class="checkboxes">
-          <div class="sp">
-            <label for="includeCharacters">Include Special Characters :</label>
-            <input type="checkbox" id="includeCharacters" checked />
-          </div>
-          <div class="num">
-            <label for="includeNumeric">Include Numeric:</label>
-            <input type="checkbox" id="includeNumeric" checked />
-          </div>
+            <div>
+                <label for="includeLowercase">Include Lowercase Letters:</label>
+                <input type="checkbox" id="includeLowercase" checked />
+            </div>
+            <div>
+                <label for="includeUppercase">Include Uppercase Letters:</label>
+                <input type="checkbox" id="includeUppercase" checked />
+            </div>
+            <div>
+                <label for="includeNumeric">Include Numeric:</label>
+                <input type="checkbox" id="includeNumeric" checked />
+            </div>
+            <div>
+                <label for="includeCharacters">Include Special Characters:</label>
+                <input type="checkbox" id="includeCharacters" checked />
+            </div>
         </div>
         <div class="length-input">
-          <label for="length">Password Length:</label>
-          <input type="number" id="length" min="6" max="40" value="8" />
+            <label for="length">Password Length:</label>
+            <input type="number" id="length" min="4" max="50" value="8" />
         </div>
         <button class="generate-button" id="generate-button">Generate Password</button>
-      </div>
-      
-
+    </div>
     <script src="./script.js"></script>
-  </body>
+</body>
 </html>
